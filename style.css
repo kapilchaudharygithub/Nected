@@ -43,13 +43,13 @@ main{
 main h3{
       font-size: 3rem;
       font-weight: bolder;
-      color:darkcyan;
+      color:deepskyblue;
   }
 
   main>p{
     font-size: 1.8rem;
     font-weight: 500;
-    color: cadetblue;
+    color:hotpink;
 
   }
 .join-now{
@@ -93,7 +93,9 @@ main h3{
     align-items: baseline;
     font-size: 1rem;
     font-weight: 500;
-    color:rgba(255, 127, 80, 0.701);
+    color:cadetblue;
+    text-align: center;
+
 
 
 
@@ -107,7 +109,7 @@ main h3{
     
     }
     main{
-        gap: 1.5rem;
+        gap: 2.2rem;
 
     }
     main h3{
@@ -123,10 +125,7 @@ main h3{
     }
      #join{
         padding: .9rem 2rem;
-        background-color: rgba(0, 0, 255, 0.712);
-         border: none;
          font-size: .8rem;
-         text-align: center;
      }
      .join-now p{
         font-size: 1.1rem;    
@@ -137,7 +136,7 @@ main h3{
     
 
  }
- @media(max-width:615px)
+ @media(max-width:621px)
  {
     .container{
        
@@ -145,7 +144,7 @@ main h3{
     
     }
     main{
-        gap: 1rem;
+        gap: 2.5rem;
 
     }
     main h3{
@@ -156,9 +155,7 @@ main h3{
   
     
       }
-      /* .join-now{
-        gap: .7rem;
-    } */
+
      #join{
         padding: 1rem;
         background-color: rgba(0, 0, 255, 0.712);
@@ -166,6 +163,9 @@ main h3{
          font-size: .7rem;
          line-break: loose;
          text-align: center;
+     }
+     .join-now{
+        gap: 1.2rem;
      }
      .join-now p{
         font-size: 1rem;    
@@ -180,7 +180,7 @@ main h3{
  @media(max-width:480px){
     .container{
        
-        padding:5vh;
+        padding:5vh 2vh;
     
     }
     nav img{
@@ -188,8 +188,7 @@ main h3{
     
     }
     main{
-        margin-top: 3vh;
-        gap: .7rem;
+        gap: 2.2rem;
 
     }
     main h3{
@@ -198,12 +197,12 @@ main h3{
 
     }
     main>p{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
   
     
       } 
     .join-now{
-        gap: .5rem;
+        gap: 1.5rem;
     }
      #join{
         padding: .6rem;
@@ -221,8 +220,8 @@ main h3{
         gap: .7rem;
     }
      #join{
-        padding: .3rem;
-      
+        width: 5rem;
+               
      }
      .join-now p{
         font-size: .8rem;    
@@ -231,7 +230,7 @@ main h3{
         width: 80px;
      }
      footer{
-        margin-top: 1.7rem;
+        /* margin-top: 1.7rem; */
         font-size: .9rem;
         font-weight: 400;
     
@@ -239,4 +238,15 @@ main h3{
         
      }
 
+}
+@media (max-width:300px) {
+    #join{
+        width: 5rem;
+
+        padding: .2rem 1rem ;
+        border-radius: 2px;;
+      
+     }
+
+    
 }
