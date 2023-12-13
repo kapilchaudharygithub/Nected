@@ -71,7 +71,7 @@ main h3{
 
  }
  .left,.right{
-    width: 30%;
+    width: 40%;
     flex-direction: column;
     row-gap: .7rem;
 
