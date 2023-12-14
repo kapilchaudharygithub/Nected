@@ -16,6 +16,11 @@ html,body{
     display: flex;
   
 }
+ a{
+    text-decoration:none;
+    color: aqua;
+    
+}
 
 .wrapper{
     height: 100vh;
@@ -80,8 +85,7 @@ main h3{
 
 }
  #join:hover{
-    cursor: pointer;
-
+    cursor: pointer; 
  }
  #join:hover::before{
     transform: scaleX(1);
